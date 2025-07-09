@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #232c31;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.hero4-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 48px 0 48px;
+    background: transparent;
+}
+
+.hero4-logo {
+    font-size: 1.6em;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #fff;
+    color: #232c31;
+    padding: 4px 12px;
+    border-radius: 6px;
+    margin-right: 32px;
+    display: inline-block;
+}
+
+.hero4-nav {
+    display: flex;
+    gap: 28px;
+    flex: 1;
+}
+
+.hero4-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.05em;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+    padding: 6px 0;
+    position: relative;
+}
+
+.hero4-nav a:hover,
+.hero4-nav a:first-child {
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+.hero4-actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.hero4-search {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.hero4-login {
+    background: #232c31;
+    color: #fff;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.hero4-login:hover {
+    background: #2e3940;
+}
+
+.hero4-signup {
+    background: #fff;
+    color: #232c31;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.hero4-signup:hover {
+    background: #e6e6e6;
+}
+
+.hero4-main {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    min-height: 70vh;
+    padding: 60px 48px 0 48px;
+    background: linear-gradient(180deg, #232c31 60%, rgba(35,44,49,0.7) 100%);
+    position: relative;
+}
+
+.hero4-info {
+    z-index: 2;
+    max-width: 700px;
+}
+
+.hero4-weight {
+    color: #bfc8ce;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.hero4-name {
+    font-size: 3.2em;
+    font-weight: 700;
+    margin: 0 0 28px 0;
+    letter-spacing: 1px;
+}
+
+.hero4-stats {
+    display: flex;
+    gap: 32px;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.hero4-stats b {
+    color: #bfc8ce;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+.hero4-details {
+    display: flex;
+    gap: 28px;
+    font-size: 1.1em;
+    color: #bfc8ce;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+.hero4-bold {
+    color: #fff;
+    font-weight: 700;
+}
+
+.back-btn {
+    margin-top: 30px;
+    padding: 10px 24px;
+    background: #fff;
+    color: #232c31;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+.back-btn:hover {
+    background: #bfc8ce;
+    color: #232c31;
+}
+
+.hero4-img-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-width: 300px;
+}
+
+.hero4-img {
+    max-height: 420px;
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 8px 32px rgba(0,0,0,0.7));
+    margin-bottom: 0;
+}
+
+.footer {
+    background: #181818;
+    color: #fff;
+    border-top: 2px solid #1ed760;
+    padding: 30px 0 20px 0;
+    font-size: 1em;
+    margin-top: 40px;
+}
+
+.footer-main {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 40px;
+}
+
+.footer-info p {
+    margin: 0 0 8px 0;
+}
+
+.footer-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.footer-lang {
+    background: #181818;
+    color: #fff;
+    border: 2px solid #1ed760;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-size: 1em;
+}
+
+.footer-links {
+    margin-top: 5px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #1ed760;
+}
+
+@media (max-width: 900px) {
+    .hero4-header, .hero4-main {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 24px 10vw 0 10vw;
+    }
+    .hero4-img-container {
+        justify-content: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .hero4-img {
+        max-width: 80vw;
+        max-height: 300px;
+    }
+    .hero4-info {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 0 15px;
+    }
+    .footer-actions {
+        align-items: flex-start;
+    }
+}

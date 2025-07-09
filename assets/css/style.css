@@ -195,6 +195,63 @@ body {
     object-fit: contain;
 }
 
+/* Hero 2 Styles */
+.hero2-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #fff;
+    background: #111;
+}
+
+.hero2-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.hero2-record {
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.hero2-profile {
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.hero2-img {
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 10px solid #002df5;
+    background: #eee;
+}
+
+.hero2-info {
+    flex: 1;
+    min-width: 260px;
+    color: #fff;
+}
+
+.hero2-buttons {
+    margin-bottom: 10px;
+}
+
+.hero2-buttons button {
+    border: 4px solid #888484;
+    background: #002df5;
+    color: #fcfafa;
+    border-radius: 20px;
+    padding: 4px 16px;
+    margin-right: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: border 0.2s, color 0.2s;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar {
@@ -238,6 +295,25 @@ body {
         gap: 20px;
         padding: 0 15px;
     }
+
+    .hero2-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero2-profile {
+        margin: 0 0 20px 0;
+    }
+
+    .hero2-img {
+        width: 100%;
+        height: auto;
+        max-width: 180px;
+    }
+
+    .hero2-info {
+        text-align: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -260,5 +336,9 @@ body {
     .hero-buttons .btn {
         width: 100%;
         margin-bottom: 10px;
+    }
+
+    .hero2-img {
+        max-width: 100%;
     }
 }
