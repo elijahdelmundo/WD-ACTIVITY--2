@@ -69,10 +69,6 @@ The purpose of this project is to:
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-- **HTML:** Structures all page elements including navigation menus, logos, hero content, and footers.
-- **CSS:** Handles all styling, layout, responsiveness, and visual effects.
-
-No frameworks or libraries are used—only raw HTML and CSS for maximum learning.
 
 ## Rules, Practices and Principles
 
