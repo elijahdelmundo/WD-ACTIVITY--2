@@ -4,12 +4,8 @@
 
 <div align="center">
   <a href="https://github.com/elijahdelmundo">
-<<<<<<< HEAD
-    <img src="/assets/img/edm.png" alt="Boxing Logo" width="130" height="100">
-=======
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
->>>>>>> 9dbdd93574d595f300adad0757f10ce2ba6526f7
+    <img src="./assets/img/edm.png" alt="Boxing Logo" width="130" height="100">
   </a>
   <h3 align="center">WD-Seatwork-2</h3>
 </div>
@@ -73,13 +69,10 @@ The purpose of this project is to:
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-<<<<<<< HEAD
 - **HTML:** Structures all page elements including navigation menus, logos, hero content, and footers.
 - **CSS:** Handles all styling, layout, responsiveness, and visual effects.
 
 No frameworks or libraries are used—only raw HTML and CSS for maximum learning.
-=======
->>>>>>> 9dbdd93574d595f300adad0757f10ce2ba6526f7
 
 ## Rules, Practices and Principles
 
