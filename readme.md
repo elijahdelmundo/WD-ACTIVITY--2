@@ -1,51 +1,36 @@
-<a name="readme-top">
-
-<br/>
+<a name="readme-top"></a>
 
 <br />
+
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/elijahdelmundo">
+    <img src="/assets/img/edm.png" alt="Boxing Logo" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD-Seatwork-2</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
-  Short Description. (Optional)
+  This project showcases my ability to create responsive and well-structured website headers, hero sections, and footers using HTML and CSS. It features five unique hero layouts inspired by modern sports and service websites.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
-
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Seatwork-2)
 
 ---
 
-<br />
-<br />
-
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
       <a href="#overview">Overview</a>
       <ol>
-        <li>
-          <a href="#key-components">Key Components</a>
-        </li>
-        <li>
-          <a href="#technology">Technology</a>
-        </li>
+        <li><a href="#key-components">Key Components</a></li>
+        <li><a href="#technology">Technology</a></li>
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -57,66 +42,88 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+WD-Seatwork-2 is a web design project that demonstrates the creation of multiple responsive hero sections, headers, and footers using semantic HTML and external CSS. The project is structured as a multipage website, with each page featuring a different hero layout inspired by real-world sports, boxing, and service platforms.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+### Purpose
+
+The purpose of this project is to:
+- Practice building clean, reusable web components.
+- Strengthen skills in semantic HTML and custom CSS.
+- Explore different layout and design patterns for hero sections, headers, and footers.
+- Demonstrate responsive design and modern UI techniques.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+
+- Multipage website structure
+- Five unique hero sections with different layouts and themes
+- Responsive headers with navigation and branding
+- Footers with links, language selector, and copyright
+- Search bars and call-to-action buttons
+- Integration of images and background graphics
+- Mobile-friendly design with media queries
+- Clean, maintainable code using only external CSS
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+
+- **HTML:** Structures all page elements including navigation menus, logos, hero content, and footers.
+- **CSS:** Handles all styling, layout, responsiveness, and visual effects.
+
+No frameworks or libraries are used—only raw HTML and CSS for maximum learning.
 
 ## Rules, Practices and Principles
+
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
-3. Place Files in their respective folders.
-4. All file naming are in camel case.
-   - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
+3. Place files in their respective folders.
+4. All file naming is in camel case.
+   - Camel case is a naming format where there is no white space in separation of each word, the first word is in all lower case while the succeeding words' first letter are in upper case followed by lower cased letters.
    - ex.: buttonAnimatedStyle.css
-5. Use only `External CSS`.
-6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
-7. File Structure to follow below.
+5. Use only **External CSS**.
+6. Renaming of pages folder names is a must, and should relate to what it is doing or the data it holds.
+7. File structure to follow below:
 
 ```
-WD-ProjectName
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
+WD-Seatwork-2
+├─ assets
+│  ├─ css
+│  │  └─ style.css
+│  └─ img
+│     ├─ bgloves.png
+│     └─ bivol.png
+│     └─ edm.png
+│      └─ floyd.png
+│      └─ miketyson.png
+│      └─ tank.jpg
+├─ pages
+│  ├─ hero1
+│  │  ├─ index.html
+│  │  └─ style.css
+│  │   └─ floydmoney.png
+│  ├─ hero2
+│  │  ├─ index.html
+│  │  └─ style.css
+│  │   └─ manny.jpg
+│  │   
+│  ├─ hero3
+│  │  ├─ index.html
+│  │  └─ style.css
+│  ├─ hero4
+│  │  ├─ index.html
+│  │  └─ style.css
+│  └─ hero5
+│     ├─ index.html
+│     └─ style.css
+├─ index.html
 └─ readme.md
 ```
 
 ## Resources
 
-<!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+HERO 1 https://boxrec.com/en/box-pro/352
+HERO 2 https://boxrec.com/en/box-pro/6129
+HERO 3 https://www.dazn.com/en-PH/competitor/Competitor:802d4lheyujmjqz01opt48879
+HERO 4 https://organicthemes.com/tutorial/create-hero-section-wordpress-page/
+HERO 5 https://cxl.com/blog/hero-image/
