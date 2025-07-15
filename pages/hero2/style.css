@@ -1,10 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background: #111;    /* Black background */
-    color: #fff;         /* White default text */
+    background: #111;
+    color: #fff;
     margin: 0;
     padding: 0;
-    /* Philippines flag: blue top, red bottom, white triangle at left */
     background: 
         linear-gradient(to bottom, #0033a0 0 50%, #ce1126 50% 100%),
         linear-gradient(135deg, #fff 0 35%, transparent 35% 100%);

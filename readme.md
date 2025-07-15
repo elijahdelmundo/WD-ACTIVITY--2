@@ -4,7 +4,8 @@
 
 <div align="center">
   <a href="https://github.com/elijahdelmundo">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
+  
+  
     <img src="./assets/img/edm.png" alt="Boxing Logo" width="130" height="100">
   </a>
   <h3 align="center">WD-Seatwork-2</h3>
@@ -89,32 +90,34 @@ WD-Seatwork-2
 │  │  └─ style.css
 │  └─ img
 │     ├─ bgloves.png
-│     └─ bivol.png
-│     └─ edm.png
-│      └─ floyd.png
-│      └─ miketyson.png
-│      └─ tank.jpg
+│     ├─ bivol.png
+│     ├─ edm.png
+│     ├─ floydmoney.png
+│     ├─ miketyson.png
+│     ├─ tank.jpg
+│     └─ manny.jpg
 ├─ pages
-│  ├─ hero1
+│  ├─ floyd-mayweather
 │  │  ├─ index.html
 │  │  └─ style.css
-│  │   └─ floydmoney.png
-│  ├─ hero2
+│  ├─ manny-pacquiao
 │  │  ├─ index.html
 │  │  └─ style.css
-│  │   └─ manny.jpg
-│  │   
-│  ├─ hero3
+│  ├─ gervonta-davis
 │  │  ├─ index.html
 │  │  └─ style.css
-│  ├─ hero4
+│  ├─ dmitry-bivol
 │  │  ├─ index.html
 │  │  └─ style.css
-│  └─ hero5
+│  └─ mike-tyson
 │     ├─ index.html
 │     └─ style.css
 ├─ index.html
-└─ readme.md
+├─ LICENSE
+├─ readme.md
+└─ .github
+   └─ workflows
+      └─ static.yml
 ```
 
 ## Resources
